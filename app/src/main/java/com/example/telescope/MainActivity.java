@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity{
                 a += i;
                 if(month % 12 == 0 && month != 0) {
                     month = 1;
-                    a = a + a * p;
+                    a = a * (1.00 + (p * 0.01));
                 }
                 month += 1;
             }
